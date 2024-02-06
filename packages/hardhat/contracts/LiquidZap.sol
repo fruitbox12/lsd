@@ -13,7 +13,7 @@ import "./customInterfaces/aave/IRewardsController.sol";
 import "./customInterfaces/balancer/IVault.sol";
 import "./customInterfaces/wmatic/WMATIC.sol";
 
-contract LSD is ERC20, IERC4626, Ownable {
+contract LiquidZap is ERC20, IERC4626, Ownable {
     event LeverageStakingYieldToggle(bool toggleStatus);
     event BorrowPercentageChange(uint8 updatedPercentage);
 
